@@ -42,3 +42,9 @@ jobs:
           REDIS_HOST: redis
           # The default Redis port
           REDIS_PORT: 6379
+
+      - name: install mocha
+        run: npm install mocha
+
+      - name: to test
+        run: npm run test
